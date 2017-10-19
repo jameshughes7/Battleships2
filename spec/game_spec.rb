@@ -1,8 +1,11 @@
 require 'game'
 
 describe Game do
+let(:game){Game.new}
+
   it 'should start a new game' do
-    game = Game.new
     expect(game).to be_instance_of(Game)
   end
+
+
 end
